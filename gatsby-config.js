@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Zero Waste Alternative',
-    siteUrl: 'zerowastealternative.to',
+    siteUrl: 'https://zerowastealternative.to',
   },
   plugins: [
     'gatsby-plugin-sass',
