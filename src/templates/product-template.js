@@ -1,14 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 export default function ProductTemplate({ pageContext: { product } }) {
   return (
     <>
-      <GatsbySeo
-        title={`Zero Waste Alternative: ${product.name}`}
-        description={`Find a zero waste, plastic-free alternative to your ${product.name}.`}
-      />
       <header>
         <h1>{product.name}</h1>
       </header>

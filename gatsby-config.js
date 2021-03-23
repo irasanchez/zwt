@@ -3,7 +3,7 @@ module.exports = {
     title: 'Zero Waste Alternative',
   },
   plugins: [
-    'gatsby-plugin-next-seo',
+    'gatsby-plugin-react-helmet',
     `gatsby-plugin-offline`,
     'gatsby-plugin-sass',
     'gatsby-plugin-gatsby-cloud',
