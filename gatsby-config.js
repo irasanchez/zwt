@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Zero Waste Alternative',
+    siteUrl: 'https://zerowastealternative.to',
   },
   plugins: [
     `gatsby-plugin-material-ui`,
