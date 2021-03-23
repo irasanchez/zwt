@@ -1,9 +1,12 @@
 import React from 'react';
+import { CssBaseline, ThemeProvider } from '@material-ui/core';
+import { theme } from '../assets/theme';
 
 export default function Layout({ children }) {
   return (
-    <div style={{ margin: `0 auto`, maxWidth: 950, padding: `0 1rem` }}>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
       {children}
-    </div>
+    </ThemeProvider>
   );
 }

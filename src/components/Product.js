@@ -16,17 +16,12 @@ export default function Product({ product }) {
   console.log(product.sources);
   return (
     <React.Fragment>
-      <CssBaseline />
-      <Container
-        maxWidth="lg"
-        component="main"
-      >
+      <Container maxWidth="lg" component="main">
         <Typography
           component="h1"
-          variant="h2"
+          variant="h1"
           align="center"
           color="textPrimary"
-          gutterBottom
         >
           {product.name}
         </Typography>
@@ -35,6 +30,7 @@ export default function Product({ product }) {
           align="center"
           color="textSecondary"
           component="p"
+          style={{ marginBottom: '70px' }}
         >
           {product.description}
         </Typography>
