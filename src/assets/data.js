@@ -48,13 +48,13 @@ module.exports = {
       sources: [
         {
           id: 'jvdcjhvjvjahvfhavh',
-          url: '',
+          url: 'https://amzn.to/3vQRwPU',
           title: 'Simply Soony Tooth Powder',
           description:
             'Organic vegan flouride free tooth powder. Women owned. Handmade in Texas, USA',
           img:
-            'https://www.joopzy.com/wp-content/uploads/2018/10/NEW-Natural-Bamboo-Toothbrush-Bamboo-Charcoal-Toothbrush-Low-Carbon-Bamboo-Nylon-Wood-Handle-Toothbrush-for-Children-1-1.jpg',
-          imgAlt: 'bamboo toothbrush',
+            'https://images-na.ssl-images-amazon.com/images/I/91wywhpX8UL._AC_SL1500_.jpg',
+          imgAlt: 'A pouch of tooth powder in paper packaging.',
           price: '10',
         },
       ],
