@@ -4,7 +4,7 @@ exports.createPages = ({ actions }) => {
   const { createPage } = actions;
 
   products.forEach((product) => {
-    console.log(product);
+    
     createPage({
       path: `/${product.name}`,
       component: require.resolve(`./src/templates/product-template.js`),
