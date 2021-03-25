@@ -8,12 +8,14 @@ import { makeStyles } from '@material-ui/core/styles';
 import { theme } from '../assets/theme';
 import SEO from '../components/SEO';
 
-
-
 const useStyles = makeStyles({
   main: {
     height: '100vh',
+    minHeight: '100vh',
+    maxHeight: '100vh',
+    minWidth: '100vw',
     width: '100vw',
+    maxWidth: '100vw',
     backgroundSize: 'cover',
     backgroundImage:
       'url(https://source.unsplash.com/1600x900/?zerowaste-plants)',
@@ -23,7 +25,6 @@ const useStyles = makeStyles({
     width: '80%',
     margin: '0 auto',
     overflow: 'hidden',
-    
   },
   text: {
     color: theme.palette.white.main,
@@ -31,8 +32,12 @@ const useStyles = makeStyles({
   overlay: {
     overflow: 'hidden',
     paddingTop: '100px',
-    height: '100%',
-    width: '100%',
+    height: '100vh',
+    minHeight: '100vh',
+    maxHeight: '100vh',
+    minWidth: '100vw',
+    width: '100vw',
+    maxWidth: '100vw',
     backgroundColor: 'rgba(160, 111, 71, .65)',
   },
 });
