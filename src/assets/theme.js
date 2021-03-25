@@ -1,6 +1,6 @@
-import { createMuiTheme } from '@material-ui/core';
+import { createMuiTheme, responsiveFontSizes } from '@material-ui/core';
 
-export const theme = createMuiTheme({
+let pretheme = createMuiTheme({
   palette: {
     white: {
       main: '#fff',
@@ -21,10 +21,6 @@ export const theme = createMuiTheme({
       default: 'rgba(242, 230, 216, .5)',
     },
   },
-  //   typography: {
-  //   fontFamily: '',
-  //    body2: {fontFamily: '', fontSize: ''}
-  //   },
   shape: {
     borderRadius: 5,
   },
@@ -42,3 +38,8 @@ export const theme = createMuiTheme({
     //     },
   },
 });
+
+export const theme = responsiveFontSizes(pretheme);
+
+
+

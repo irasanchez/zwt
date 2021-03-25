@@ -4,8 +4,11 @@ import Layout from '../components/Layout';
 import Search from '../components/Search';
 import { Container, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+
 import { theme } from '../assets/theme';
 import SEO from '../components/SEO';
+
+
 
 const useStyles = makeStyles({
   main: {
@@ -14,16 +17,20 @@ const useStyles = makeStyles({
     backgroundSize: 'cover',
     backgroundImage:
       'url(https://source.unsplash.com/1600x900/?zerowaste-plants)',
+    overflow: 'hidden',
   },
   container: {
     width: '80%',
     margin: '0 auto',
+    overflow: 'hidden',
+    
   },
   text: {
     color: theme.palette.white.main,
   },
   overlay: {
-    paddingTop: '120px',
+    overflow: 'hidden',
+    paddingTop: '100px',
     height: '100%',
     width: '100%',
     backgroundColor: 'rgba(160, 111, 71, .65)',
