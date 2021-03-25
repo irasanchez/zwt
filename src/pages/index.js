@@ -16,11 +16,8 @@ const useStyles = makeStyles({
       'url(https://source.unsplash.com/1600x900/?zerowaste-plants)',
   },
   container: {
-    root: {
-      width: '70%',
-      margin: '0 auto',
-      border: '1px solid red',
-    },
+    width: '80%',
+    margin: '0 auto',
   },
   text: {
     color: theme.palette.white.main,
@@ -46,7 +43,7 @@ export default function Home() {
               <Typography className={classes.text} variant="h1" component="h1">
                 Zero Waste Alternative
               </Typography>
-              <Typography className={classes.text} variant="h3" component="h2">
+              <Typography className={classes.text} variant="h4" component="h2">
                 Find zero waste alternatives to anything you need.
               </Typography>
               <Search />

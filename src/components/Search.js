@@ -10,11 +10,14 @@ const { products } = require('../assets/data');
 
 const useStyles = makeStyles({
   containerStyle: {
-    maxWidth: '50vw',
+    maxWidth: '60vw',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: '80px',
     '& .autocomplete__wrapper': {
       display: 'block',
       width: '100%',
-      marginTop: '50px',
     },
     '& .autocomplete__wrapper input': {
       height: '50px',
@@ -34,6 +37,8 @@ const useStyles = makeStyles({
       flexDirection: 'column',
       alignItems: 'stretch',
       backgroundColor: theme.palette.white.main,
+      maxHeight: '300px',
+      overflowY: 'scroll',
     },
     '& .autocomplete__menu--hidden': {
       display: 'none',
@@ -54,6 +59,8 @@ const useStyles = makeStyles({
     '& .anchor': {
       position: 'absolute',
       height: '50px',
+      marginLeft: 'auto',
+      marginRight: 'auto',
     },
     '& .typewriter-effect': {
       position: 'relative',
