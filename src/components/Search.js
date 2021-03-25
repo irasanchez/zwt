@@ -80,6 +80,8 @@ export default function Search() {
 
   const handleVisibility = () => {
     setVisibility(false);
+    //set focus so user doesn't have to double click
+    document.getElementById('autocomplete').focus();
   };
   const handleOnSearch = (value, populateResults) => {
     if (!value) return productNames;
